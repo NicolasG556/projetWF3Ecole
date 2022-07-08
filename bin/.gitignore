@@ -3,3 +3,7 @@
 /Personne.class
 /Etudiant.class
 /Professeur.class
+/Cours.class
+/CoursFacultatif.class
+/Module.class
+/Note.class
