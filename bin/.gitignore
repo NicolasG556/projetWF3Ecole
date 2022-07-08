@@ -1,9 +1,8 @@
-/Test.class
-/Ecole.class
-/Personne.class
-/Etudiant.class
-/Professeur.class
 /Cours.class
 /CoursFacultatif.class
+/Ecole.class
+/Etudiant.class
 /Module.class
 /Note.class
+/Personne.class
+/Professeur.class
