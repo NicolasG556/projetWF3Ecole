@@ -7,6 +7,12 @@ public class Etudiant extends Personne {
 		this.setEmail(email);
 	}
 
+
+	public Etudiant(String nom, String prenom) {
+		super(nom, prenom);	
+		}
+
+
 	public String getEmail() {
 		return email;
 	}
@@ -14,5 +20,6 @@ public class Etudiant extends Personne {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
 	
 }

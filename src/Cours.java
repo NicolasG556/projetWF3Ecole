@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Cours {
+public class Cours implements Inscription{
 
 	private String titre;
 	ArrayList<Etudiant> etudiants = new ArrayList<Etudiant>(); 
@@ -15,6 +15,13 @@ public class Cours {
 
 	public void setTitre(String titre) {
 		this.titre = titre;
+	}
+	
+
+	@Override
+	public void inscrireEtudiant(String nom, String prenom) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
