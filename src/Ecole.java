@@ -28,6 +28,31 @@ public class Ecole implements Inscription{
 	public void setAdresse(String adresse) {
 		this.adresse = adresse;
 	}
+	
+
+	public ArrayList<Etudiant> getEtudiants() {
+		return etudiants;
+	}
+
+	public void setEtudiants(ArrayList<Etudiant> etudiants) {
+		this.etudiants = etudiants;
+	}
+
+	public ArrayList<Professeur> getProfesseurs() {
+		return professeurs;
+	}
+
+	public void setProfesseurs(ArrayList<Professeur> professeurs) {
+		this.professeurs = professeurs;
+	}
+
+	public ArrayList<Module> getModules() {
+		return modules;
+	}
+
+	public void setModules(ArrayList<Module> modules) {
+		this.modules = modules;
+	}
 
 	public void inscrireEtudiant(String nom, String prenom) {
 		

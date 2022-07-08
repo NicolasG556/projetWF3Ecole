@@ -21,5 +21,13 @@ public class Etudiant extends Personne {
 		this.email = email;
 	}
 	
+	public String afficherEtudiants() {
+		
+	return "Nom : " + this.getNom() + ", Prenom : " + this.getPrenom();
+		
+	}
+	
+	
+	
 	
 }
