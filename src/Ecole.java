@@ -37,9 +37,9 @@ public class Ecole implements Inscription{
 	}
 	
 	public void afficherEtudiants() {
-		
+		System.out.println("La liste des etudiants est la suivante :");
 		for(Etudiant etudiant:etudiants) {
-			System.out.println("Nom : " + etudiant.getNom() + "Prenom : " + etudiant.getPrenom());
+			System.out.println("Nom : " + etudiant.getNom() + " Prenom : " + etudiant.getPrenom());
 		}
 		
 	}

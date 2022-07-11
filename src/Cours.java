@@ -20,9 +20,16 @@ public class Cours implements Inscription{
 
 	@Override
 	public void inscrireEtudiant(String nom, String prenom) {
-		// TODO Auto-generated method stub
+		Etudiant nouvelEtudiant = new Etudiant(nom, prenom); 
+		this.etudiants.add(nouvelEtudiant);
 		
 	}
-	
+	public void afficherEtudiants() {
+		
+		for(Etudiant etudiant:etudiants) {
+			System.out.println("Nom : " + etudiant.getNom() + " Prenom : " + etudiant.getPrenom());
+		}
+		
+	}
 	
 }
